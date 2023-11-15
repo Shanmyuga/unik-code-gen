@@ -1,0 +1,208 @@
+{
+	"layout": [{
+		"type": "PackageJson",
+		"templateName": "fm/packagejson.ftl",
+		"path": "/",
+		"outputFileName": "package.json",
+		"params": {
+			"dependencies": {
+			    "babel-core": "^6.26.0",
+			    "babel-loader": "^7.1.2",
+			    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+			    "babel-preset-env": "^1.6.1",
+			    "babel-preset-react": "^6.24.1",
+			    "babel-preset-stage-0": "^6.24.1",
+			    "bootstrap": "^4.1.0",
+			    "gulp-env": "^0.4.0",
+			    "history": "^4.7.2",
+			    "jquery": "^3.3.1",
+			    "moment": "^2.21.0",
+			    "popper": "^1.0.1",
+			    "proxy-middleware": "^0.15.0",
+			    "react": "^16.2.0",
+			    "react-bootstrap": "^0.32.0",
+			    "react-bootstrap-table": "^4.3.1",
+			    "react-datepicker": "^1.2.2",
+			    "react-dom": "^16.2.0",
+			    "react-redux": "^5.0.7",
+			    "react-router": "^4.2.0",
+			    "react-router-dom": "^4.2.2",
+			    "redux": "^4.0.0",
+			    "redux-logger": "^3.0.6",
+			    "redux-promise-middleware": "^5.1.1",
+			    "webpack": "^3.10.0",
+			    "webpack-config": "^7.5.0",
+			    "webpack-dev-server": "^2.9.7"
+   			}
+		}
+	}, {
+		"type": "ReactFramework",
+		"templateName": "fm/packagejson.ftl",
+		"path": "/",
+		"outputFileName": "package.json",
+		"params": {
+			"webpackPort": "3002",
+			"expressPort": "3000",
+			"publicPath": "src",
+			"entry": "index"
+		},
+		"config": {
+			"templates": {
+				"webpack.config.js": "fm/framework/webpackconfig.ftl",
+				"server-proxy.js": "fm/framework/serverproxy.ftl",
+				"project-config.js": "fm/framework/projectconfig.ftl",
+				"index.html": "fm/framework/indexhtmlw3.ftl"
+			}
+		}
+	}, {
+		"type": "ReactFramework",
+		"templateName": "fm/packagejson.ftl",
+		"path": "/src",
+		"outputFileName": "package.json",
+		"params": {
+			"routeFileName": "route",
+			"configureStore": "store/configureStore"
+		},
+		"config": {
+			"templates": {
+				"index.js": "fm/framework/indexjs.ftl"
+			}
+		}
+	}, {
+		"type": "React",
+		"templateName": "fm/reactcomponent.ftl",
+		"path": "/src/component",
+		"outputFileName": "*.js",
+		"params": ${layout_json},
+		"config": {
+			"templates": {
+				"section": "fm/panelw3.ftl",
+				"textbox": "fm/textbox.ftl",
+				"dropdown": "fm/dropdown.ftl",
+				"dropdownbutton":"fm/dropdownbutton.ftl",
+				"textarea":"fm/textarea.ftl",
+				"checkbox":"fm/checkbox.ftl",
+				"datepicker":"fm/datepicker.ftl",
+				"radiobutton":"fm/radio.ftl",
+				"button":"fm/button.ftl",
+				"table":"fm/table.ftl",
+				"form":"fm/form.ftl",
+				"grid": "fm/grid.ftl"
+			}, 
+			"keyAttributes": [	
+				"type", "section", "grid", "columns", "options", "id"
+			]
+		}
+	}, {
+		"type": "ReactService",
+		"templateName": "fm/flows/service.ftl",
+		"path": "/src/service",
+		"outputFileName": "*.js",
+		"params": {
+			"contentType": "application/json",
+			"method": "GET",
+			"url": "http://localhost:8080/"
+		}
+	}, {
+		"type": "ReactAction",
+		"templateName": "fm/flows/action.ftl",
+		"path": "/src/actions",
+		"outputFileName": "*.js",
+		"params": ${layout_json}
+	}, {
+		"type": "ReactReducer",
+		"templateName": "fm/flows/reducer.ftl",
+		"path": "/src/reducer",
+		"outputFileName": "*.js",
+		"params": ${layout_json}
+	}, {
+		"type": "ReactContainer",
+		"templateName": "fm/flows/reactcontainerw3.ftl",
+		"path": "/src/container",
+		"outputFileName": "*.js",
+		"params": ${layout_json}
+	}, {
+		"type": "ReactRouter",
+		"templateName": "fm/framework/routes.ftl",
+		"path": "/src",
+		"outputFileName": "route.js",
+		"params": {
+			"routeFileName": "route",
+			"configureStore": "store/configureStore"
+		},
+		"config": {
+			"templates": {
+				"index.js": "fm/framework/indexjs.ftl"
+			}
+		}
+	}, {
+		"type": "ReactFramework",
+		"templateName": "",
+		"path": "/src/component",
+		"outputFileName": "",
+		"params": {
+			"sectionName": "@sectionName",
+			"containerName": "@containerName",
+			"routerComponents": "@routerComponents"
+		},
+		"config": {
+			"templates": {
+				"header.js": "fm/framework/headerw3.ftl",
+				"leftNavBar.js": "fm/framework/leftnavbarw3.ftl",
+				"leftNavSearch.js": "fm/framework/leftnavsearch.ftl",
+				"footer.js": "fm/framework/footerw3.ftl"
+			}
+		}
+	}, {
+		"type": "ReactStore",
+		"templateName": "fm/flows/configureStore.ftl",
+		"path": "/src/store",
+		"outputFileName": "configureStore.js",
+		"params": ${layout_json}
+	}, {
+		"type": "ReactResource",
+		"templateName": "",
+		"path": "/src/asset/js",
+		"outputFileName": "",
+		"params": ${layout_json},
+		"config": {
+			"files": [
+				"js/bootstrap.min.js",
+				"js/jquery.min.js",
+				"js/w3-admin.js"
+			]
+		}
+	}, {
+		"type": "ReactResource",
+		"templateName": "",
+		"path": "/src/asset/css",
+		"outputFileName": "",
+		"params": ${layout_json},
+		"config": {
+			"files": [
+				"css/css.css",
+				"css/font-awesome.min.w3.css",
+				"css/w3-theme-black.css",
+				"css/w3.css",
+				"css/w3-admin.css",
+				"css/bootstrap.min.css"
+			]
+		}
+	}, {
+		"type": "ReactResource",
+		"templateName": "",
+		"path": "/src/asset/fonts",
+		"outputFileName": "",
+		"params": ${layout_json},
+		"config": {
+			"files": [
+				"fonts/fontawesome-webfont.eot",
+				"fonts/fontawesome-webfont.svg",
+				"fonts/fontawesome-webfont.ttf",
+				"fonts/fontawesome-webfont.woff",
+				"fonts/fontawesome-webfont.woff2",
+				"fonts/FontAwesome.otf"
+			]
+		}
+	}]
+}

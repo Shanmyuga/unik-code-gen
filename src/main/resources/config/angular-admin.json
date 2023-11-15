@@ -1,0 +1,440 @@
+{
+	"layout": [
+		{
+			"type": "PackageJson",
+			"templateName": "fm/angular/package_json.ftl",
+			"path": "/",
+			"outputFileName": "package.json",
+			"params": {
+				"dependencies": {
+					"@angular/animations": "^6.0.9",
+					"@angular/cdk": "^6.3.3",
+					"@angular/common": "^6.0.3",
+					"@angular/compiler": "^6.0.3",
+					"@angular/core": "^6.0.3",
+					"@angular/forms": "^6.0.3",
+					"@angular/http": "^6.0.3",
+					"@angular/material": "^6.3.3",
+					"@angular/platform-browser": "^6.0.3",
+					"@angular/platform-browser-dynamic": "^6.0.3",
+					"@angular/router": "^6.0.3",
+					"@swimlane/ngx-datatable": "^13.0.1",
+					"bootstrap": "^4.1.1",
+					"core-js": "^2.5.4",
+					"hammerjs": "^2.0.8",
+					"material-design-icons": "^3.0.1",
+					"rxjs": "^6.2.2",
+					"zone.js": "^0.8.26",
+					"graphql": "^0.13.2",
+					"graphql-tag": "^2.9.2",
+					"apollo-angular": "^1.1.2",
+					"apollo-angular-link-http": "^1.1.1",
+					"apollo-cache-inmemory": "^1.2.5",
+					"apollo-client": "^2.3.5",
+					"primeng": "^6.0.1"
+				},
+				"devDependencies": {
+					"@angular/compiler-cli": "^6.0.3",
+					"@angular-devkit/build-angular": "~0.6.8",
+					"typescript": "~2.7.2",
+					"@angular/cli": "~6.0.8",
+					"@angular/language-service": "^6.0.3",
+					"@types/jasmine": "~2.8.6",
+					"@types/jasminewd2": "~2.0.3",
+					"@types/node": "~8.9.4",
+					"codelyzer": "~4.2.1",
+					"jasmine-core": "~2.99.1",
+					"jasmine-spec-reporter": "~4.2.1",
+					"karma": "~1.7.1",
+					"karma-chrome-launcher": "~2.2.0",
+					"karma-coverage-istanbul-reporter": "~2.0.0",
+					"karma-jasmine": "~1.1.1",
+					"karma-jasmine-html-reporter": "^0.2.2",
+					"protractor": "~5.3.0",
+					"ts-node": "~5.0.1",
+					"tslint": "~5.9.1"
+				}
+			}
+		},
+		{
+			"type": "ReactResource",
+			"templateName": "",
+			"path": "/src/app",
+			"outputFileName": "",
+			"params": {
+				
+			},
+			"config": {
+				"files": [
+					"css/app.component.css"
+				]
+			}
+		},
+		{
+			"type": "ReactResource",
+			"templateName": "",
+			"path": "/src/assets/css",
+			"outputFileName": "",
+			"params": {
+				
+			},
+			"config": {
+				"files": [
+					"css/angular/admin/font-awesome.css",
+					"css/angular/admin/font.css",
+					"css/angular/admin/style-admin.css",
+					"css/angular/admin/bootstrap.css"
+				]
+			}
+		},
+		{
+			"type": "ReactResource",
+			"templateName": "",
+			"path": "/src/assets/js",
+			"outputFileName": "",
+			"params": {
+				
+			},
+			"config": {
+				"files": [
+					"js/angular/admin/bootstrap.js",
+					"js/angular/admin/jquery2.0.3.min.js",
+					"js/angular/admin/jquery.cookie.js",
+					"js/angular/admin/screenfull.js",
+					"js/angular/admin/proton.js",
+					"js/angular/admin/modernizr.js"
+				]
+			}
+		},
+		{
+			"type": "ReactResource",
+			"templateName": "",
+			"path": "/src/assets/images",
+			"outputFileName": "",
+			"params": {
+				
+			},
+			"config": {
+				"files": [
+					"images/angular/admin/logo.png",
+					"images/angular/admin/1.png",
+					"images/angular/admin/2.png",
+					"images/angular/admin/3.png"
+				]
+			}
+		}, 
+		{
+			"type": "ReactResource",
+			"templateName": "",
+			"path": "/src/asset/fonts",
+			"outputFileName": "",
+			"params": {
+			},
+			"config": {
+				"files": [
+					"fonts/fontawesome-webfont.eot",
+					"fonts/fontawesome-webfont.svg",
+					"fonts/fontawesome-webfont.ttf",
+					"fonts/fontawesome-webfont.woff",
+					"fonts/fontawesome-webfont.woff2",
+					"fonts/FontAwesome.otf"
+				]
+			}
+  	    },
+		{
+			"type": "Angular",
+			"templateName": "",
+			"path": "/src/app/",
+			"outputFileName": "",
+			"params": {
+				"specTemplate": "fm/framework/angular/default/component.spec.ftl",
+				"languages": {
+					"en": "English", 
+					"fr": "French"
+				}
+			},
+			"config": {
+				"templates": {
+					"section": "fm/angular/admin/panel_angular.ftl",
+					"textbox": "fm/angular/default/textbox_angular.ftl",
+					"dropdown": "fm/angular/default/dropdown_angular.ftl",
+					"textarea": "fm/angular/default/textarea_angular.ftl",
+					"checkbox": "fm/angular/default/checkbox_angular.ftl",
+					"datepicker": "fm/angular/default/datepicker_angular.ftl",
+					"radiobutton": "fm/angular/default/radio_angular.ftl",
+					"button": "fm/angular/default/button_angular.ftl",
+					"dropdownbutton": "fm/angular/default/dropdownbutton.ftl",
+					"table": "fm/table.ftl",
+					"form": "fm/angular/default/form_angular.ftl",
+					"grid": "fm/angular/default/grid_angular.ftl",
+					"datatable": "fm/angular/default/datatable.ftl",
+					"navbars": "fm/angular/default/nav_overlay_main.ftl",
+					"modelType": "fm/angular/default/model_ts.ftl",
+					"tabs": "fm/angular/default/tabs_main.ftl",
+					"defaultTs": "fm/angular/component_ts.ftl",
+					"appComp": "fm/angular/admin/app_component.ftl",
+					"modallink": "fm/angular/default/modallink.ftl",
+					"header": "fm/angular/default/header.ftl",
+					"angComponent": "fm/angular/default/angularComponent.ftl"
+				},
+				"keyAttributes": [
+					"type",
+					"section",
+					"grid",
+					"columns",
+					"options",
+					"id"
+				],
+				"formExcludeList": [
+					"section",
+					"table",
+					"form",
+					"grid",
+					"datatable",
+					"navbars",
+					"modelType",
+					"tabs",
+					"defaultTs",
+					"appComp",
+					"angComponent",
+					"modallink", "header"
+				]
+			}
+		},
+		{
+			"type": "ReactResource",
+			"templateName": "",
+			"path": "/src/",
+			"outputFileName": "",
+			"params": {
+				
+			},
+			"config": {
+				"files": [
+					"css/angular/admin/styles.css"
+				]
+			}
+		},
+		{
+			"type": "ReactResource",
+			"templateName": "",
+			"path": "/src/assets/data",
+			"outputFileName": "",
+			"params": {
+				
+			},
+			"config": {
+				"files": [
+					"data/client.json"
+				]
+			}
+		},
+		{
+			"type": "ReactResource",
+			"templateName": "",
+			"path": "/src/app/appcommon/field-error",
+			"outputFileName": "",
+			"params": {
+				
+			},
+			"config": {
+				"files": [
+					"css/field-error.component.css"
+				]
+			}
+		},
+		{
+			"type": "ReactResource",
+			"templateName": "",
+			"path": "/src/app/appcommon/field-error",
+			"outputFileName": "",
+			"params": {
+				
+			},
+			"config": {
+				"files": [
+					"data/field-error.component.html"
+				]
+			}
+		},
+		{
+			"type": "ReactFramework",
+			"templateName": "",
+			"path": "/src/",
+			"outputFileName": "index.html",
+			"params": {
+				
+			},
+			"config": {
+				"templates": {
+					"index.html": "fm/framework/angular/admin/indexhtml.ftl"
+				}
+			}
+		},
+		{
+			"type": "ReactFramework",
+			"templateName": "",
+			"path": "/",
+			"outputFileName": "",
+			"params": {
+				
+			},
+			"config": {
+				"templates": {
+					"formatCode.bat": "projectstructure/angular/formatCode.ftl"
+				}
+			}
+		}
+	],
+	"componentConfig": {
+		"createProject": "projectstructure/angular/createAngularProject.ftl",
+		"createModule": "projectstructure/angular/createAngularModule.ftl",
+		"createComponent": "projectstructure/angular/createAngularComponent.ftl",
+		"postCreation": "projectstructure/angular/postProjectCommands.ftl",
+		"commonModule": "appcommon",
+		"formFieldComponent": "field-error",
+		"moduleTemplateName": "fm/angular/module_ts.ftl",
+		"componentTemplateName": "fm/angular/component_ts.ftl",
+		"componentPrefix": "app",
+		"i18nConfig": {
+			"defaultlang": "en",
+			"languages": ["en", "fr"]
+		},
+		"tsConfig": {
+			"imports": [
+				{
+					"packageName": "@angular/core",
+					"importClasses": "Input"
+				}
+			],
+			"declarations": [
+				{
+					"annotation": "Input",
+					"variableName": "errorMsg",
+					"datatype": "string"
+				},
+				{
+					"annotation": "Input",
+					"variableName": "displayError",
+					"datatype": "boolean"
+				}
+			]
+		},
+		"panelTypeConfig": {
+			"single": {
+				"path": "src/app",
+				"name": "${htmlID}",
+				"css": "css/component.css",
+				"tsConfig": {
+					"templateName": "fm/angular/component_ts.ftl",
+					"imports": [
+						{
+							"packageName": "@angular/forms",
+							"importClasses": "Validators, FormBuilder, FormGroup"
+						}
+					]
+				}
+			}, 
+			"tabs": {
+				"path": "/src/app",
+				"name": "${htmlID}",
+				"css": "css/component.css",
+				"generateLayout": "true",
+				"tsConfig": {
+					"templateName": "fm/angular/component_ts.ftl",
+					"imports": [
+						{
+							"packageName": "@angular/forms",
+							"importClasses": "FormBuilder, FormGroup"
+						}, 
+						{
+							"packageName": "rxjs",
+							"importClasses": "Observable, of, Subscription"
+						}
+					]
+				}
+			}, 
+			"childTab": {
+				"path": "/src/app",
+				"name": "${htmlID}-tab",
+				"css": "css/component.css",
+				"tsConfig": {
+					"templateName": "fm/angular/component_ts.ftl",
+					"imports": [
+						{
+							"packageName": "@angular/forms",
+							"importClasses": "FormBuilder, FormGroup, Validators"
+						}, 
+						{
+							"packageName": "rxjs",
+							"importClasses": "Observable, of, Subscription"
+						}
+					]
+				}
+			},
+			"navbars": {
+				"path": "src/app",
+				"name": "${htmlID}",
+				"generateLayout": "true",
+				"tsConfig": {
+					"css": "css/search.component.css",
+					"templateName": "fm/angular/component_ts.ftl",
+					"imports": [
+						{
+							"packageName": "@angular/forms",
+							"importClasses": "FormBuilder, FormGroup"
+						}, 
+						{
+							"packageName": "rxjs",
+							"importClasses": "Observable, of, Subscription"
+						}
+					] 
+				}
+			}, 
+			"leftPanel": {
+				"path": "/src/app",
+				"name": "${htmlID}-left-nav",
+				"tsConfig": {
+					"css": "css/search-left-nav.css",
+					"templateName": "fm/angular/component_leftpanel_ts.ftl",
+					"createModel": "true",
+					"modelFolder": "model",
+					"imports": [
+						{
+							"packageName": "@angular/forms",
+							"importClasses": "Validators, ReactiveFormsModule, FormsModule, FormGroup, FormControl, FormBuilder"
+						},
+						{
+							"packageName": "@angular/core",
+							"importClasses": "EventEmitter, Output"
+						},
+						{
+							"packageName": "rxjs",
+							"importClasses": "Observable, of"
+						}
+					]
+				}
+			},
+			"rightPanel": {
+				"path": "/src/app",
+				"name": "${htmlID}-right-nav",
+				"tsConfig": {
+					"css": "css/search-right-nav.css",
+					"templateName": "fm/angular/component_rightpanel_ts.ftl",
+					"createModel": "true",
+					"modelFolder": "model",
+					"imports": [
+						{
+							"packageName": "rxjs",
+							"importClasses": "Observable, Subscription"
+						},
+						{
+							"packageName": "@angular/forms",
+							"importClasses": "Validators, FormBuilder, FormGroup"
+						}
+					]
+				}
+			}
+		}
+	}
+}

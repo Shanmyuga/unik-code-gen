@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.f-button {
+    color: #fff;
+    background-color: #337ab7;
+    background-image: none, linear-gradient(rgba(255, 255, 255, 0.12) 0px, rgba(255, 255, 255, 0.08) 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 4px;
+    border-color: #039bc9;
+    background-position: 50% 50%;
+}
+.f-button {
+    margin: 0;
+    padding: 2px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    background-repeat: repeat-x;
+    background-position: 0 center;
+    font: inherit;
+    line-height: 1.72em;
+    text-align: center;
+    text-decoration: none;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: 0;
+    -webkit-appearance: none;
+}
+.open>.dropdown-toggle.shell-button .btn-primary.focus, .open>.dropdown-toggle.shell-button .btn-primary:focus, .open>.dropdown-toggle.shell-button .btn-primary:hover, .shell-button .btn-primary.active.focus, .shell-button .btn-primary.active:focus, .shell-button .btn-primary.active:hover, .shell-button .btn-primary:active.focus, .shell-button .btn-primary:active:focus, .shell-button .btn-primary:active:hover {
+	color: #671e75;
+	background-color: #cf80df;
+	border-color: #ae33c6
+}

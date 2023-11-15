@@ -1,0 +1,15 @@
+{
+  "name": "angular-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": ${dependencies},
+  "devDependencies": ${devDependencies}
+}

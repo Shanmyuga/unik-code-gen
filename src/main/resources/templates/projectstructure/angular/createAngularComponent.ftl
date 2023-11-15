@@ -1,0 +1,1 @@
+cd ${modulePath} && ng generate component ${componentName}

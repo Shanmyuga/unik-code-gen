@@ -1,0 +1,15 @@
+{
+	"uiTechnology": "AngularJs",
+	"appName": "uimodeller",
+	"uiName": "New Patient",
+	"uiLayout": "{\"layout\":[{\"type\":\"section\",\"id\":9,\"section\":\"section\",\"htmlID\":\"masterForm\",\"tabbedPanel\":\"true\",\"columns\":[[{\"type\":\"section\",\"id\":\"4\",\"section\":\"section\",\"label\":\"Provider Entry Form\",\"htmlID\":\"providerEntryForm\",\"columns\":[[{\"type\":\"textbox\",\"id\":4,\"label\":\"Provider Full Name\",\"htmlID\":\"provName\"},{\"type\":\"textbox\",\"id\":6,\"label\":\"Provider TIN\",\"htmlID\":\"provTin\"},{\"type\":\"textbox\",\"id\":5,\"label\":\"Provider ID\",\"htmlID\":\"provID\"},{\"type\":\"dropdown\",\"id\":6,\"options\":[{\"display\":\"InNetwork\",\"value\":\"IN\",\"htmlids\":\"provNetwork_1\"},{\"display\":\"Out of Network\",\"value\":\"OUT\",\"htmlids\":\"provNetwork_2\"}],\"label\":\"Provider Network\",\"htmlID\":\"provNetwork\",\"tempdisplay\":\"\",\"tempoption\":\"\",\"script\":\"eventFiire(this)\"},{\"type\":\"button\",\"id\":41,\"label\":\"Add New Provider\"}]],\"leftPanel\":false},{\"type\":\"section\",\"id\":10,\"section\":\"section\",\"label\":\"Provider List\",\"htmlID\":\"providerList\",\"columns\":[[{\"type\":\"datatable\",\"id\":51,\"options\":[{\"display\":\"Client ID\",\"value\":\"id\",\"htmlids\":\"undefined_1\"},{\"display\":\"Client Name\",\"value\":\"name\",\"htmlids\":\"undefined_2\"},{\"display\":\"City\",\"value\":\"city\",\"htmlids\":\"dataTable_3\"}],\"label\":\"Data table\",\"tempdisplay\":\"\",\"tempoption\":\"\",\"htmlID\":\"dataTable\",\"recordPerPage\":\"10\",\"recordSelectionType\":\"single\",\"rowHeight\":\"50\",\"headerHeight\":\"30\"}]],\"rightPanel\":false}]],\"label\":\"MasterForm\"}]}",
+	"codeGenPath": "D:/238209/Technical/angular-samples/angular-ui-gen-5",
+	"projectName": "angular-demo",
+	"componentName": "prov-details",
+	"moduleName": "provtab",
+	"searchModule": "false",
+	"css": "component.css",
+	"configName": "angular-default",
+	"springBootConfigName": "springboot-default",
+	"genLoginScreen": "false"
+}

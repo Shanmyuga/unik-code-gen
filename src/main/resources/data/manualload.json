@@ -1,0 +1,33 @@
+[
+	{
+		"subscriberId": "20301",
+		"memberPartyId": "12983",
+		"memberName": "John Doe",
+		"state": "IL",
+		"accountNumber": "10101000",
+		"ssn": "xxx-xxx-xxxx",
+		"relationship": "Subscriber",
+		"gender": "M",
+		"dob": "01/16/1980"
+	}, {
+		"subscriberId": "20301",
+		"memberPartyId": "12983",
+		"memberName": "Mary Doe",
+		"state": "IL",
+		"accountNumber": "10101010",
+		"ssn": "xxx-xxx-xxxx",
+		"relationship": "Dependent",
+		"gender": "F",
+		"dob": "05/29/1985"
+	}, {
+		"subscriberId": "20301",
+		"memberPartyId": "12983",
+		"memberName": "Sally Doe",
+		"state": "IL",
+		"accountNumber": "10101011",
+		"ssn": "xxx-xxx-xxxx",
+		"relationship": "Dependent",
+		"gender": "F",
+		"dob": "01/01/2016"
+	}
+]

@@ -1,0 +1,61 @@
+{
+  "layout": [
+    {
+      "type": "grid",
+      "grid": "grid",
+      "id": "112",
+      "md": "{4}",
+      "mdOffset": "{4}",
+      "columns": [
+        [
+          {
+            "type": "section",
+            "id": "4",
+            "section": "section",
+            "label": "Please Sign In",
+            "htmlID": "loginId",
+            "className": "login-panel",
+            "columns": [
+              {
+                "type": "textbox",
+                "readOnly": "",
+                "id": "4",
+                "label": "Username",
+                "htmlID": "email",
+                "length": "20"
+              },
+              {
+                "type": "textbox",
+                "readOnly": "",
+                "id": "4",
+                "label": "Password",
+                "htmlID": "password",
+                "length": "20"
+              },
+              {
+                "type": "checkbox",
+                "id": "5",
+                "label": "Remember me",
+                "htmlID": "rememberMe",
+                "styleType": "type1",
+                "options": [
+                  {
+                    "display": "Remember me",
+                    "value": "0",
+                    "htmlids": "rememberMe_1"
+                  }
+                ]
+              },
+              {
+                "type": "button",
+                "id": "6",
+                "label": "Login",
+                "htmlID": "btnLogin"
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

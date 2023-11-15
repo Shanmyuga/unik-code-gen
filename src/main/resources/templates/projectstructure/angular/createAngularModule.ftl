@@ -1,0 +1,1 @@
+cd ${projectPath} && ng generate module ${moduleName} --routing

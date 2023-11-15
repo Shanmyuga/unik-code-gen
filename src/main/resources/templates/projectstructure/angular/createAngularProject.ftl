@@ -1,0 +1,1 @@
+cd ${projectPath} && ng new ${projectName} --routing --skip-install --style=${styleExt} --prefix=${componentPrefix}

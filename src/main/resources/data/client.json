@@ -1,0 +1,7 @@
+[
+  { "id": "1", "name": "Manulife Financial", "city": "Boston", "state": "MA" },
+  { "id": "2", "name": "Sunlife", "city": "Franklin Lakes", "state": "NJ" },
+  { "id": "3", "name": "Aetna", "city": "Los Angeles", "state": "CA" },
+  { "id": "4", "name": "Express Scripts", "city": "St. Louis", "state": "NJ" },
+  { "id": "5", "name": "Caremark", "city": "Philadelphia", "state": "PE" }
+]

@@ -1,0 +1,90 @@
+{
+	"application":{
+	"inline-application":"default"
+	},
+	"layout": [{
+		"type" : "Pom",
+		"templateName" : "servicefm/pom.ftl",
+		"path" : "apiName/",
+		"outputFileName": "pom.xml",
+		"params": ${layout_json}
+	}, {
+		"type" : "ApplicationProperties",
+		"templateName" : "servicefm/application.ftl",
+		"path" : "apiName/src/main/resources",
+		"outputFileName": "application.properties",
+		"params": ${layout_json}
+	}, {
+		"type" : "Main",
+		"templateName" : "servicefm/main.ftl",
+		"path" : "apiName/src/main/java/com/cognizant/apiName",
+		"outputFileName": "",
+		"params": ${layout_json}
+	}, {
+		"type" : "SpringBootDTO",
+		"templateName" : "servicefm/pojo.ftl",
+		"path" : "apiName/src/main/java/com/cognizant/apiName/dto",
+		"outputFileName": "",
+		"params": ${layout_json}
+	}, {
+		"type" : "SpringBootController",
+		"templateName" : "servicefm/controller.ftl",
+		"path" : "apiName/src/main/java/com/cognizant/apiName/controller",
+		"outputFileName": "",
+		"params": ${layout_json}
+	}, {
+		"type" : "SpringBootService",
+		"templateName" : "servicefm/service.ftl",
+		"path" : "apiName/src/main/java/com/cognizant/apiName/service",
+		"outputFileName": "",
+		"params": ${layout_json}
+	}, {
+		"type" : "SpringBootServiceImpl",
+		"templateName" : "servicefm/serviceimpl.ftl",
+		"path" : "apiName/src/main/java/com/cognizant/apiName/service/impl",
+		"outputFileName": "",
+		"params": ${layout_json}
+	}, {
+		"type" : "SpringBootDAO",
+		"templateName" : "servicefm/dao.ftl",
+		"path" : "apiName/src/main/java/com/cognizant/apiName/dao",
+		"outputFileName": "",
+		"params": ${layout_json}
+	}, {
+		"type" : "SpringBootDAOImpl",
+		"templateName" : "servicefm/daoimpl.ftl",
+		"path" : "apiName/src/main/java/com/cognizant/apiName/dao/impl",
+		"outputFileName": "",
+		"params": ${layout_json}
+	}, {
+		"type" : "SpringBootRepository",
+		"templateName" : "servicefm/repository.ftl",
+		"path" : "apiName/src/main/java/com/cognizant/apiName/repository",
+		"outputFileName": "",
+		"params": ${layout_json}
+	}, {
+		"type" : "SpringBootResponse",
+		"templateName" : "servicefm/response.ftl",
+		"path" : "apiName/src/main/java/com/cognizant/apiName/response",
+		"outputFileName": "",
+		"params": ${layout_json}
+	}, {
+		"type" : "SpringBootEntity",
+		"templateName" : "servicefm/entity.ftl",
+		"path" : "apiName/src/main/java/com/cognizant/apiName/entity",
+		"outputFileName": "",
+		"params": ${layout_json}
+	}, {
+		"type" : "SpringBootConfig",
+		"templateName" : "servicefm/compconfig.ftl",
+		"path" : "apiName/src/main/java/com/cognizant/apiName/config",
+		"outputFileName": "",
+		"params": ${layout_json}
+	}, {
+		"type" : "SpringBootConstants",
+		"templateName" : "servicefm/constants.ftl",
+		"path" : "apiName/src/main/java/com/cognizant/apiName/constants",
+		"outputFileName": "",
+		"params": ${layout_json}
+	}]
+}

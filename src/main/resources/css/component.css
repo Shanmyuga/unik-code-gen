@@ -1,0 +1,54 @@
+.mat-tab-group{
+  font-family: inherit;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+.container {
+    max-width: 1200px;
+}
+
+.form-control {
+  display: block;
+  width: 365px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.navlink{background-color: grey;  height : 35px }
+
+a
+{
+    color:white;
+    font-weight:bold;
+}
+
+.fit_within {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.comp_padding {
+	padding-top: 10px;
+}

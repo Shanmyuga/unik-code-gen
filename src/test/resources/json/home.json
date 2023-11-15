@@ -1,0 +1,14 @@
+{
+	"uiTechnology": "AngularJs",
+	"appName": "uimodeller",
+	"uiName": "Home",
+	"uiLayout": "{\"layout\":[{\"type\":\"section\",\"id\":\"4\",\"section\":\"section\",\"label\":\"Home Form 2\",\"htmlID\":\"homeForm2\",\"panelType\":\"single\",\"columns\":[[{\"type\":\"textbox\",\"id\":4,\"label\":\"Animal Name\",\"htmlID\":\"animalName\",\"length\":\"10\",\"mandatory\":true},{\"type\":\"dropdown\",\"id\":6,\"options\":[{\"display\":\"Dalmation\",\"value\":\"M\",\"htmlids\":\"breed_1\"},{\"display\":\"Pomerian\",\"value\":\"F\",\"htmlids\":\"breed_2\"}],\"label\":\"Breed\",\"htmlID\":\"breed\",\"tempdisplay\":\"\",\"tempoption\":\"\"},{\"type\":\"button\",\"id\":7,\"label\":\"Find\",\"htmlID\":\"btnFind\"}]]}]}",
+	"codeGenPath": "D:/238209/Technical/angular-samples/angular-ui-gen-1",
+	"projectName": "angular-admin-demo",
+	"componentName": "home",
+	"moduleName": "pharmacy",
+	"css": "component.css",
+	"configName": "angular-admin",
+	"springBootConfigName": "springboot-default",
+	"genLoginScreen": "false"
+}

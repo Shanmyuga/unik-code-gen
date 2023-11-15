@@ -1,0 +1,337 @@
+{
+	"layout": [{
+		"type": "PackageJson",
+		"templateName": "fm/packagejson.ftl",
+		"path": "/",
+		"outputFileName": "package.json",
+		"params": {
+			"scripts": {
+			    "start": "node server-proxy.js",
+			    "test": "jest",
+			    "cucumber": "node node_modules/cucumber/bin/cucumber-js test/features -r test/specs",
+			    "e2e-setup": "node node_modules/selenium-standalone/bin/selenium-standalone install"
+			},
+			"dependencies": {
+			    "babel-core": "^6.26.0",
+			    "babel-loader": "^7.1.2",
+			    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    			"babel-polyfill": "^6.26.0",
+			    "babel-preset-env": "^1.6.1",
+			    "babel-preset-react": "^6.24.1",
+			    "babel-preset-stage-0": "^6.24.1",
+			    "bootstrap": "^4.1.0",
+			    "css-loader": "^1.0.0",
+			    "gulp-env": "^0.4.0",
+			    "history": "^4.7.2",
+			    "joi": "^13.6.0",
+			    "joi-browser": "^13.4.0",
+			    "jquery": "^3.3.1",
+			    "moment": "^2.21.0",
+			    "popper": "^1.0.1",
+			    "proxy-middleware": "^0.15.0",
+			    "react": "^16.2.0",
+			    "react-bootstrap": "^0.32.0",
+			    "react-bootstrap-table": "^4.3.1",
+			    "react-datepicker": "^1.2.2",
+			    "react-dom": "^16.2.0",
+			    "react-redux": "^5.0.7",
+			    "react-router": "^4.2.0",
+    			"react-redux-i18n": "^1.9.3",
+			    "react-router-dom": "^4.2.2",
+			    "redux": "^4.0.0",
+			    "redux-form": "^7.4.2",
+			    "redux-logger": "^3.0.6",
+			    "redux-promise-middleware": "^5.1.1",
+			    "redux-thunk": "^2.3.0",
+			    "style-loader": "^0.23.1",
+			    "webpack": "^3.10.0",
+			    "webpack-config": "^7.5.0",
+			    "webpack-dev-server": "^2.9.7"
+   			}, 
+   			"devDependencies" : {
+   				"babel": "^6.23.0",
+			    "babel-jest": "^23.6.0",
+			    "babel-plugin-add-module-exports": "^1.0.0",
+			    "babel-preset-es2015": "^6.24.1",
+			    "babel-preset-react-app": "^5.0.3",
+			    "cucumber": "^5.0.2",
+			    "enzyme": "^3.7.0",
+			    "enzyme-adapter-react-16": "^1.6.0",
+			    "enzyme-to-json": "^3.3.4",
+			    "jasmine": "^3.2.0",
+			    "jasmine-enzyme": "^6.1.2",
+			    "jest": "^23.6.0",
+			    "jsdom": "^12.2.0",
+			    "nightwatch-cucumber": "^9.1.3",
+			    "react-addons-test-utils": "^15.6.2",
+			    "react-test-renderer": "^16.5.2",
+			    "redux-mock-store": "^1.5.3",
+			    "selenium-standalone": "^6.15.3"
+   			}
+		}
+	}, {
+		"type": "ReactFramework",
+		"templateName": "fm/packagejson.ftl",
+		"path": "/",
+		"outputFileName": "package.json",
+		"params": {
+			"webpackPort": "3002",
+			"expressPort": "3000",
+			"publicPath": "src",
+			"entry": "index"
+		},
+		"config": {
+			"templates": {
+				"webpack.config.js": "fm/framework/webpackconfig.ftl",
+				"server-proxy.js": "fm/framework/serverproxy.ftl",
+				"project-config.js": "fm/framework/projectconfig.ftl",
+				"index.html": "fm/framework/react/default/indexhtml.ftl",
+				".babelrc": "fm/framework/react/default/babelrc.ftl"
+			}
+		}
+	}, {
+		"type": "ReactFramework",
+		"templateName": "",
+		"path": "/src/component",
+		"outputFileName": "",
+		"params": {
+			
+		},
+		"config": {
+			"templates": {
+				"renderField.js": "fm/react/cgs/renderField.ftl"
+			}
+		}
+	}, {
+		"type": "ReactFramework",
+		"templateName": "",
+		"path": "/src/container",
+		"outputFileName": "",
+		"params": {
+			"webpackPort": "3001"
+		},
+		"config": {
+			"templates": {
+				"defaultPage.js": "fm/framework/react/cgs/defaultpage.ftl"
+			}
+		}
+	}, {
+		"type": "ReactFramework",
+		"templateName": "fm/packagejson.ftl",
+		"path": "/src",
+		"outputFileName": "package.json",
+		"params": {
+			"routeFileName": "route",
+			"configureStore": "store/configureStore"
+		},
+		"config": {
+			"templates": {
+				"index.js": "fm/framework/react/default/indexjs.ftl"
+			}
+		}
+	}, {
+		"type": "React",
+		"templateName": "fm/react/default/reactcomponent.ftl",
+		"path": "/src/component",
+		"outputFileName": "*.js",
+		"params": ${layout_json},
+		"config": {
+			"templates": {
+				"section": "fm/react/default/panel.ftl",
+				"textbox": "fm/react/cgs/textbox.ftl",
+				"dropdown": "fm/react/cgs/dropdown.ftl",
+				"dropdownbutton":"fm/dropdownbutton.ftl",
+				"textarea":"fm/react/default/textarea.ftl",
+				"checkbox":"fm/react/cgs/checkbox.ftl",
+				"datepicker":"fm/react/cgs/datepicker.ftl",
+				"radiobutton":"fm/react/default/radio.ftl",
+				"button":"fm/react/default/button.ftl",
+				"datatable":"fm/react/default/table.ftl",
+				"form":"fm/react/default/form.ftl",
+				"grid": "fm/react/default/grid.ftl",
+				"gridheader": "fm/react/default/gridheader.ftl"
+				
+			},
+			"keyAttributes": [	
+				"type", "section", "grid", "columns", "options", "id"
+			],
+			"formExcludeList": [
+				"section",
+				"form",
+				"grid",
+				"table",
+				"gridheader",
+				"button",
+				"header"
+			]
+		}
+	}, {
+		"type": "ReactService",
+		"templateName": "fm/flows/service.ftl",
+		"path": "/src/service",
+		"outputFileName": "*.js",
+		"params": {
+			"contentType": "application/json",
+			"method": "GET",
+			"url": "http://localhost:8080/"
+		}
+	}, {
+		"type": "ReactAction",
+		"templateName": "fm/flows/action.ftl",
+		"path": "/src/actions",
+		"outputFileName": "*.js",
+		"params": ${layout_json}
+	}, {
+		"type": "ReactReducer",
+		"templateName": "fm/flows/reducer.ftl",
+		"path": "/src/reducer",
+		"outputFileName": "*.js",
+		"params": {	
+			"rootReducer": "fm/flows/react/default/rootreducer.ftl"
+		}
+	}, {
+		"type": "ReactContainer",
+		"templateName": "fm/flows/react/default/reactcontainer.ftl",
+		"path": "/src/container",
+		"outputFileName": "*.js",
+		"params": ${layout_json}
+	}, {
+		"type": "ReactRouter",
+		"templateName": "fm/framework/routes.ftl",
+		"path": "/src",
+		"outputFileName": "route.js",
+		"params": {
+			"routeFileName": "route",
+			"configureStore": "store/configureStore"
+		},
+		"config": {
+			"templates": {
+				"index.js": "fm/framework/indexjs.ftl"
+			}
+		}
+	}, {
+		"type": "ReactFramework",
+		"templateName": "",
+		"path": "/src/component",
+		"outputFileName": "",
+		"params": {
+			"sectionName": "@sectionName",
+			"containerName": "@containerName",
+			"routerComponents": "@routerComponents",
+			"languages": {
+				"en": "English",
+				"fr": "French"
+			}
+		},
+		"config": {
+			"templates": {
+				"header.js": "fm/framework/headercgs.ftl",
+				"leftNavBar.js": "fm/framework/react/cgs/leftnavbar.ftl",
+				"leftNavSearch.js": "fm/framework/leftnavsearch.ftl",
+				"LanguageSelector.js": "fm/framework/react/default/languageselector.ftl"
+			}
+		}
+	}, {
+		"type": "ReactFramework",
+		"templateName": "",
+		"path": "/src/asset/props",
+		"outputFileName": "",
+		"params": {
+			"languages": {
+				"en": "English",
+				"fr": "French"
+			}
+		},
+		"config": {
+			"templates": {
+				"translations.js": "fm/framework/react/default/translations.ftl"
+			}
+		}
+	}, {
+		"type": "ReactStore",
+		"templateName": "fm/flows/react/default/configureStore.ftl",
+		"path": "/src/store",
+		"outputFileName": "configureStore.js",
+		"params": ${layout_json}
+	}, {
+		"type": "ReactFramework",
+		"templateName": "",
+		"path": "/src/utils",
+		"outputFileName": "",
+		"params": {
+			
+		},
+		"config": {
+			"templates": {
+				"validationUtils.js": "fm/flows/react/default/validationUtils.ftl"
+			}
+		}
+	}, {
+		"type": "ReactResource",
+		"templateName": "",
+		"path": "/src/asset/js",
+		"outputFileName": "",
+		"params": ${layout_json},
+		"config": {
+			"files": [
+				"js/bootstrap.min.js",
+				"js/sb-admin-2.js",
+				"js/jquery.min.js",
+				"js/metisMenu.min.js"
+			]
+		}
+	}, {
+		"type": "ReactResource",
+		"templateName": "",
+		"path": "/src/asset/css",
+		"outputFileName": "",
+		"params": ${layout_json},
+		"config": {
+			"files": [
+				"css/react/cgs/bootstrap.min.css",
+				"css/font-awesome.min.css",
+				"css/react/cgs/sb-admin-2.css",
+				"css/metisMenu.min.css"
+			]
+		}
+	}, {
+		"type": "ReactResource",
+		"templateName": "",
+		"path": "/src/asset/fonts",
+		"outputFileName": "",
+		"params": ${layout_json},
+		"config": {
+			"files": [
+				"fonts/fontawesome-webfont.eot",
+				"fonts/fontawesome-webfont.svg",
+				"fonts/fontawesome-webfont.ttf",
+				"fonts/fontawesome-webfont.woff",
+				"fonts/fontawesome-webfont.woff2",
+				"fonts/FontAwesome.otf"
+			]
+		}
+	}, {
+		"type": "ReactFramework",
+		"templateName": "",
+		"path": "/test",
+		"outputFileName": "",
+		"params": {
+			
+		},
+		"config": {
+			"templates": {
+				"setupTests.js": "fm/framework/react/default/setupTests.ftl"
+			}
+		}
+	}, {
+		"type": "ReactUnitTests",
+		"templateName": "fm/react/default/reactunittest.ftl",
+		"reducerTemplate" :"fm/react/default/reacttestreducer.ftl",
+		"actionTemplate" : "fm/react/default/reacttestaction.ftl",
+		"path": "/test",
+		"outputFileName": "",
+		"params": {
+			"srcPath": "/src"
+		}
+	}]
+}

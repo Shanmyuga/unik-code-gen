@@ -1,0 +1,10 @@
+{
+    "uiTechnology" : "React",
+    "appName": "uimodeller",
+    "uiName": "Table Grid",
+    "uiLayout" : "{\"layout\":[{\"type\":\"form\",\"id\":\"4\",\"htmlID\":\"loginFormId\",\"onSubmit\":\"this.handleSubmit\",\"columns\":[{\"type\":\"section\",\"id\":\"5\",\"section\":\"section\",\"label\":\"Enrollement Form\",\"htmlID\":\"enrollmentPanelId\",\"columns\":[{\"type\":\"textbox\",\"readOnly\":\"\",\"id\":\"1\",\"label\":\"First Name\",\"htmlID\":\"firstName\",\"length\":\"20\"},{\"type\":\"textbox\",\"readOnly\":\"\",\"id\":\"2\",\"label\":\"Last Name\",\"htmlID\":\"lastName\",\"length\":\"20\"},{\"type\":\"grid\",\"grid\":\"grid\",\"id\":\"10\",\"xs\":\"{12}\",\"md\":\"{6}\",\"columns\":[[{\"type\":\"textbox\",\"readOnly\":\"\",\"id\":\"3\",\"label\":\"Address Line 1\",\"htmlID\":\"addressLine1\"},{\"type\":\"dropdown\",\"disabled\":\"\",\"id\":\"7\",\"label\":\"City\",\"htmlID\":\"city\",\"options\":{\"FL\":\"Franklin Lakes\",\"BL\":\"Bloomington\",\"OL\":\"Orlando\",\"AN\":\"Austin\"}}],[{\"type\":\"textbox\",\"readOnly\":\"readOnly\",\"id\":\"5\",\"label\":\"Address Line 2\",\"htmlID\":\"addressLine2\"},{\"type\":\"dropdown\",\"disabled\":\"\",\"id\":\"6\",\"label\":\"State\",\"htmlID\":\"state\",\"options\":{\"TX\":\"Texas\",\"NJ\":\"New Jersey\",\"MS\":\"Missouri\"}}]]},{\"type\":\"button\",\"id\":\"4\",\"label\":\"Submit\",\"htmlID\":\"btnLogin\"}]}]}]}",
+    "codeGenPath" : "D:/238209/Technical/react-samples/react-hello",
+    "configName": "react-default",
+    "springBootConfigName": "springboot-default",
+    "genLoginScreen": "false"
+}

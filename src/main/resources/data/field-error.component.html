@@ -1,0 +1,17 @@
+<div *ngIf="displayError">
+    <div class="input-group invalid-feedback" ng-message="required" *ngIf="errorTypes && errorTypes.required">
+        {{ errorMsg }} is required
+    </div>
+	<div class="input-group invalid-feedback" ng-message="minlength" *ngIf="errorTypes && errorTypes.minlength">
+        {{ errorMsg }} must have a minimum of {{ errorTypes.minlength.requiredLength }} characters
+    </div>
+	<div class="input-group invalid-feedback" ng-message="maxlength" *ngIf="errorTypes && errorTypes.maxlength">
+        {{ errorMsg }} must have a maximum of {{ errorTypes.maxlength.requiredLength }} characters
+    </div>
+    <div class="input-group invalid-feedback" ng-message="email" *ngIf="errorTypes && errorTypes.email">
+        {{ errorMsg }} is not a valid email
+    </div>
+	<div class="input-group invalid-feedback" ng-message="pattern" *ngIf="errorTypes && errorTypes.pattern">
+        {{ errorMsg }} is invalid
+    </div>
+</div>

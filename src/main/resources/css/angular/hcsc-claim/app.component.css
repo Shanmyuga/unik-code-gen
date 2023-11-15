@@ -1,0 +1,26 @@
+.nav-link {color: rg(206, 225, 226, 0.76)}
+.nav-link.active {color: rg(252, 248, 246, 0.76)}
+a
+{
+    color:white;
+    font-weight:bold;
+}
+a:active{
+    color: rgba(218, 115, 18, 0.966);
+
+}
+
+.navlink{background-color: grey;  height : 35px }
+
+.leftnav-container {
+    width: 250px;
+    background-color: rgb(240,248,255);
+}
+
+.sidenav-container {
+    max-height: 100%;
+}
+
+.dropdown {
+    display: inline;
+}

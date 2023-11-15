@@ -1,0 +1,16 @@
+{
+	"uiTechnology": "Angular",
+	"appName": "uimodeller",
+	"uiName": "home",
+	"uiLayout": "{\"layout\":[{\"type\":\"section\",\"id\":\"4\",\"section\":\"section\",\"label\":\"New Patient Form\",\"htmlID\":\"newPatientForm\",\"columns\":[[{\"type\":\"dropdown\",\"i\":6,\"options\":[{\"display\":\"Male\",\"value\":\"M\",\"htmlids\":\"patientGender_1\"},{\"display\":\"Female\",\"value\":\"F\",\"htmlids\":\"patientGender_2\"}],\"label\":\"Patient Gender\",\"htmlID\":\"patientGender\",\"tempdisplay\":\"\",\"tempoption\":\"\"}]]}]}",
+	"codeGenPath": "D:\\244898\\angular-samples",
+	"projectName": "angularsearch",
+	"componentName": "client-search",
+	"moduleName": "pharmacy",
+	"searchModule": "true",
+	"css": "component.css",
+	"userDefinedPath": "pharmacy/client",
+	"configName": "angular-default",
+	"springBootConfigName": "springboot-default",
+	"genLoginScreen": "false"
+}

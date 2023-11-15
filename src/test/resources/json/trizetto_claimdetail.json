@@ -1,0 +1,15 @@
+{
+  "uiTechnology": "AngularJs",
+  "appName": "uimodeller",
+  "uiName": "New Patient",
+  "uiLayout": "{\"layout\":[{\"type\":\"section\",\"id\":9,\"section\":\"section\",\"panelType\":\"single\",\"label\":\"Claims Inquiry 360\",\"htmlID\":\"providerList\",\"columns\":[[{\"type\":\"datatable\",\"id\":51,\"options\":[{\"display\":\"Claim ID\",\"value\":\"claimId\",\"htmlids\":\"undefined_1\"},{\"display\":\"Subscriber ID\",\"value\":\"subscriberId\",\"htmlids\":\"undefined_2\"},{\"display\":\"Suffix\",\"value\":\"suffix\",\"htmlids\":\"dataTable_3\"},{\"display\":\"Member\",\"value\":\"member\",\"htmlids\":\"dataTable_4\"},{\"display\":\"DOB\",\"value\":\"dob\",\"htmlids\":\"dataTable_5\"},{\"display\":\"Provider ID\",\"value\":\"providerId\",\"htmlids\":\"dataTable_6\"},{\"display\":\"Provider\",\"value\":\"provider\",\"htmlids\":\"dataTable_7\"},{\"display\":\"Begin Date\",\"value\":\"beginDate\",\"htmlids\":\"dataTable_8\"},{\"display\":\"Status\",\"value\":\"status\",\"htmlids\":\"dataTable_9\"},{\"display\":\"Total Charge\",\"value\":\"totalCharge\",\"htmlids\":\"dataTable_10\"},{\"display\":\"Sub Type\",\"value\":\"subType\",\"htmlids\":\"dataTable_11\"}],\"label\":\"Data table\",\"tempdisplay\":\"\",\"tempoption\":\"\",\"htmlID\":\"dataTable\",\"recordPerPage\":\"10\",\"recordSelectionType\":\"single\",\"rowHeight\":\"50\",\"headerHeight\":\"30\"}]]}]}",
+  "codeGenPath": "D:/244898/angular-samples",
+  "projectName": "angular-trizetto",
+  "componentName": "claim-search",
+  "moduleName": "claim",
+  "searchModule": "false",
+  "css": "trizetto-component.css",
+  "configName": "angular-trizetto",
+  "springBootConfigName": "springboot-default",
+  "genLoginScreen": "false"
+}

@@ -1,0 +1,58 @@
+[
+	{
+		"firstName": "John",
+		"lastName": "Doe",
+		"dateOfBirth": "01/01/1965",
+		"groupNbr": "12",
+		"sectionNbr": "345",
+		"subscriberId": "98765",
+		"memberEnrollPeriod": "10/2/2012- 05/25/2013",
+		"statePearl": "IL (00)",
+		"memberPartyId": "123123",
+		"subPartyId": "12345"
+	}, {
+		"firstName": "Jane",
+		"lastName": "Doe",
+		"dateOfBirth": "02/02/1968",
+		"groupNbr": "12",
+		"sectionNbr": "345",
+		"subscriberId": "98765",
+		"memberEnrollPeriod": "01/29/2009- 01/25/2009",
+		"statePearl": "IL (00)",
+		"memberPartyId": "123123",
+		"subPartyId": "67890"
+	}, {
+		"firstName": "Jonathan",
+		"lastName": "Doe",
+		"dateOfBirth": "03/03/1994",
+		"groupNbr": "12",
+		"sectionNbr": "345",
+		"subscriberId": "98765",
+		"memberEnrollPeriod": "06/25/2008- 06/25/2009",
+		"statePearl": "IL (00)",
+		"memberPartyId": "123123",
+		"subPartyId": "54321"
+	}, {
+		"firstName": "Jasmine",
+		"lastName": "Doe",
+		"dateOfBirth": "04/04/1997",
+		"groupNbr": "12",
+		"sectionNbr": "345",
+		"subscriberId": "98765",
+		"memberEnrollPeriod": "04/25/2005 - 02/03/2005",
+		"statePearl": "IL (00)",
+		"memberPartyId": "123123",
+		"subPartyId": "98765"
+	}, {
+		"firstName": "Bob",
+		"lastName": "Doe",
+		"dateOfBirth": "05/05/2001",
+		"groupNbr": "12",
+		"sectionNbr": "345",
+		"subscriberId": "98765",
+		"memberEnrollPeriod": "02/25/2003 - 02/25/2004",
+		"statePearl": "IL (00)",
+		"memberPartyId": "123123",
+		"subPartyId": "76543"
+	}
+]

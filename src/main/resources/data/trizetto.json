@@ -1,0 +1,54 @@
+[
+	{
+		"claimId": "123456789001",
+		"subscriberId": "CORE",
+		"suffix": "00",
+		"member": "John Doe",
+		"dob": "12/20/1960",
+		"providerId": "COREPR",
+		"provider": "Alex Provider",
+		"beginDate": "01/01/2010",
+		"status": "01 - Accepted; Awaiting batch",
+		"totalCharge": "$200.00",
+		"subType": "Medical"
+	},
+	{
+		"claimId": "123456789002",
+		"subscriberId": "CORE",
+		"suffix": "00",
+		"member": "John Doe",
+		"dob": "12/20/1960",
+		"providerId": "COREPR",
+		"provider": "Alex Provider",
+		"beginDate": "01/01/2010",
+		"status": "01 - Accepted; Awaiting batch",
+		"totalCharge": "$350.00",
+		"subType": "Medical"
+	},
+	{
+		"claimId": "123456789003",
+		"subscriberId": "CORE",
+		"suffix": "00",
+		"member": "John Doe",
+		"dob": "12/20/1960",
+		"providerId": "COREPR",
+		"provider": "Alex Provider",
+		"beginDate": "01/01/2010",
+		"status": "01 - Accepted; Awaiting batch",
+		"totalCharge": "$100.00",
+		"subType": "Medical"
+	},
+	{
+		"claimId": "123456789004",
+		"subscriberId": "CORE",
+		"suffix": "00",
+		"member": "John Doe",
+		"dob": "12/20/1960",
+		"providerId": "COREPR",
+		"provider": "Alex Provider",
+		"beginDate": "01/01/2010",
+		"status": "01 - Accepted; Awaiting batch",
+		"totalCharge": "$750.00",
+		"subType": "Medical"
+	}
+]

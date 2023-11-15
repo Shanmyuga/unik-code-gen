@@ -1,0 +1,10 @@
+{
+    "uiTechnology" : "React",
+    "appName": "uimodeller",
+    "uiName": "Patient Form",
+    "uiLayout" : "{\"layout\":[{\"type\":\"section\",\"id\":\"4\",\"section\":\"section\",\"label\":\"New Patient Form\",\"htmlID\":\"newPatientForm\",\"columns\":[[{\"type\":\"textbox\",\"id\":4,\"label\":\"Patient Name\",\"htmlID\":\"patientName\",\"length\":\"10\",\"mandatory\":true},{\"type\":\"dropdown\",\"id\":6,\"options\":[{\"display\":\"Male\",\"value\":\"M\",\"htmlids\":\"patientGender_1\"},{\"display\":\"Female\",\"value\":\"F\",\"htmlids\":\"patientGender_2\"}],\"label\":\"Patient Gender\",\"htmlID\":\"patientGender\",\"tempdisplay\":\"\",\"tempoption\":\"\"},{\"type\":\"textbox\",\"id\":5,\"label\":\"Patient Address\",\"htmlID\":\"patientAddress\",\"mandatory\":true},{\"type\":\"datepicker\",\"id\":7,\"options\":[],\"label\":\"Patient Date of Birth\",\"htmlID\":\"patDob\",\"mandatory\":true},{\"type\":\"textbox\",\"id\":7,\"label\":\"Patient City\",\"htmlID\":\"patCity\"},{\"type\":\"textbox\",\"id\":9,\"label\":\"Patient State\",\"htmlID\":\"patState\"},{\"type\":\"textbox\",\"id\":8,\"label\":\"Patient ZipCode\",\"htmlID\":\"patZipcode\"},{\"type\":\"radiobutton\",\"id\":5,\"options\":[{\"display\":\"Subscriber\",\"value\":\"S\",\"htmlids\":\"patSubscriber_1\"},{\"display\":\"Member\",\"value\":\"M\",\"htmlids\":\"patSubscriber_2\"}],\"label\":\"Subscriber or Member\",\"htmlID\":\"patSubscriber\",\"tempdisplay\":\"\",\"tempoption\":\"\"}]]}]}",
+    "codeGenPath" : "D:/238209/Technical/react-samples/react-hello",
+    "configName": "react-default",
+    "springBootConfigName": "springboot-default",
+    "genLoginScreen": "true"
+}

@@ -1,0 +1,26 @@
+[
+	{
+		"itemNumber": "123456789001",
+		"eligible": "Y",
+		"startDate": "10/12/2018",
+		"expiryDate": "05/20/2019",
+		"itemName": "Item Name 1",
+		"minDaysSupplyPerClaim": "90",
+		"maxDaysSupplyPerClaim": "180",
+		"totDaysSupply": "180",
+		"minQtyPerClaim": "30",
+		"maxQtyPerClaim": "90"
+	},
+	{
+		"itemNumber": "123456789002",
+		"eligible": "Y",
+		"startDate": "03/25/2017",
+		"expiryDate": "07/19/2022",
+		"itemName": "Item Name 2",
+		"minDaysSupplyPerClaim": "45",
+		"maxDaysSupplyPerClaim": "270",
+		"totDaysSupply": "270",
+		"minQtyPerClaim": "30",
+		"maxQtyPerClaim": "180"
+	}
+]
